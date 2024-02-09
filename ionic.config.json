@@ -1,0 +1,7 @@
+{
+  "name": "Farm_Game_Mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

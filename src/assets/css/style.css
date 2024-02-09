@@ -1,0 +1,334 @@
+body{
+    background-image: url("/assets/img/PNG/Background.png");
+    background-size: cover;
+    min-height: 80vh;
+    font-family: Helvetica Neue;
+    color: white;
+    overflow: scroll;
+}
+
+.header1{
+    height: 120px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.header1 img{
+    height: 80px;
+    margin-top: 5%;
+}
+
+.header2{
+    height: 120px;
+    overflow: hidden;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.header2 img{
+    height: 80px;
+    margin-top: 5%;
+}
+
+.header2 button{
+    float: right;
+    margin-right: 10%;
+    padding: 8px 8px 8px 8px;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 32px;
+    font-size: 10px;
+    margin-top: 16%;
+
+}
+
+.formClass{
+    height: 480px;
+}
+
+.formClass h1{
+    font-size: 32px;
+    padding-left: 5%;
+}
+
+.formClass .desc{
+    text-align: left;
+    font-size: 6px;
+    padding-left: 5%;
+    padding-right: 20%;
+}
+
+.login{
+    margin-top: 5%;
+    border: 1px solid white;
+    margin-left: 5%;
+    height: 300px;
+    margin-right: 5%;
+    border-radius: 24px;
+}
+
+.login .First{
+    margin-top: 30%;
+}
+
+.login p{
+    margin-left: 5%;
+    font-size: 12px;
+}
+
+.login p input{
+    float: right;
+    margin-right: 5%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid white;
+    width: 260px;
+}
+
+.login2{
+    margin-top: 5%;
+    border: 1px solid white;
+    margin-left: 5%;
+    height: 300px;
+    margin-right: 5%;
+    border-radius: 24px;
+}
+
+.login2 #First{
+    margin-top: 15%;
+}
+
+.login2 p{
+    margin-left: 5%;
+    font-size: 12px;
+}
+
+.login2 p input{
+    float: right;
+    margin-right: 5%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid white;
+    width: 180px;
+}
+
+.login2 button{
+    float: right;
+    margin-right: 5%;
+    padding: 4px 4px 4px 4px;
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 32px;
+    font-size: 10px;
+    margin-top: 5%;
+}
+
+#pwd{
+    width: 210px;
+}
+
+.link {
+    margin-top: 7%;
+}
+
+.link a{
+    text-decoration: underline;
+    color: white;
+    font-size: 6px;
+    margin-top: 10%;
+}
+
+.login button{
+    float: right;
+    margin-right: 5%;
+    padding: 4px 4px 4px 4px;
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 32px;
+    font-size: 10px;
+    color: white;
+}
+
+body button:hover{
+    border: 1px solid white;
+    background-color: white;
+    color: #00641B;
+    transition: 0.3s;
+}
+
+.welcome{
+    height: 480px;
+}
+
+.welcomeContainer{
+    border: 1px solid white;
+    overflow: hidden;
+    padding: 8px 8px 8px 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 32px;
+    height: 140px;
+}
+
+.welcomeContainer h1{
+    font-size: 24px;
+    text-align: center;
+}
+
+.welcomeContainer p{
+    font-size: 5px;
+    text-align: center;
+    margin-top: -2%;
+}
+
+.welcomeContainer section{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 5%;
+}
+
+.welcomeContainer button{
+    padding: 4px 4px 4px 4px;
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 32px;
+    font-size: 4px;
+    color: white;
+}
+
+.welcomeContainer button:hover{
+    border: 1px solid white;
+    background-color: white;
+    color: #00641B;
+    transition: 0.3s;
+}
+
+.listeTerrain{
+    height: 310px;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    column-gap: 25px;
+    overflow: scroll;
+}
+
+.card2{
+    border:1px solid white;
+    height: 120px;
+    overflow: hidden;
+    width: 100px;
+    border-radius: 24px;
+}
+
+.card2 .CardTop{
+    border-bottom:1px solid white;
+    height: 65px;
+    overflow: hidden;
+}
+
+.card2 .CardTop img{
+    height: 65px;
+    margin-top: -20%;
+}
+
+.card2 .CardBottom{
+    font-size: 6px;
+    text-align: center;
+}
+
+.card2 .CardBottom .First{
+    margin-top: 12%;
+}
+
+.formInsClass{
+    height: 460px;
+}
+
+.formInsClass h1{
+    font-size: 24px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.formInsClass .desc2{
+    margin-left: 5%;
+    font-size: 6px;
+    margin-right: 5%;
+}
+
+.Insert{
+    border: 1px solid white;
+    height: 280px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 23px;
+    padding: 8px 8px 8px 8px;
+}
+
+.Insert p{
+    margin-left: 2%;
+    font-size: 10px;
+}
+
+.Insert input{
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid white;
+    float: right;
+    margin-right: 5%;
+    width: 180px;
+}
+
+.Insert select{
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid white;
+    float: right;
+    margin-right: 5%;
+    width: 180px;
+}
+
+.Insert #InsFirst{
+    margin-top: 20%;
+}
+
+.Insert #InsFirst2{
+    margin-top: 30%;
+}
+
+.Insert button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 16px;
+    color: white;
+    font-size: 10px;
+    padding: 4px 4px 4px 4px;
+    width: 100px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.footer{
+    text-align: center;
+    font-size: 6px;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.169);
+    backdrop-filter: blur(12px) brightness(0.8);
+    text-align: center;
+    padding: 12px 12px 12px 12px;
+}
+
+#footer2{
+    margin-top: 2%;
+}
